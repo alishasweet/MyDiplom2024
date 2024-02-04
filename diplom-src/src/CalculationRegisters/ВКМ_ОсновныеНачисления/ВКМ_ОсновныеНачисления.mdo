@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CalculationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2d60a12e-9451-45a0-bec3-b51be358dedd">
+  <producedTypes>
+    <selectionType typeId="af0dc82c-04ef-47fc-8bf8-d4bc9ec7d35c" valueTypeId="6b404034-966f-4326-9228-439009951047"/>
+    <listType typeId="2dff336f-48b1-4d7b-8124-a83eae441c3c" valueTypeId="c23df154-cf13-4557-a4ba-e538f46d5452"/>
+    <managerType typeId="eb9e4fc7-ea8c-4aae-a28b-70b4380199fe" valueTypeId="d0af2984-5a04-40a2-a2ad-5efde3e1ebc7"/>
+    <recordSetType typeId="ca8790c2-c330-499f-a4d7-efa5480771b7" valueTypeId="d0edff8d-6af2-412d-b24c-2b057e9cab06"/>
+    <recordKeyType typeId="7892e596-7144-429a-a45d-de5bf059bcee" valueTypeId="465bd726-c4f2-4c9b-9fc4-8227a7cf81db"/>
+    <recordType typeId="dd115fc0-f126-4f66-9dd8-92e240d1fbe8" valueTypeId="92231f30-a12b-4198-b8c0-9a51208ddb15"/>
+    <recalcsType typeId="397e4697-b0ca-4fa6-89da-1686ad5305a6" valueTypeId="1b80444b-c5e3-4044-867e-ad6b5b6ffad0"/>
+  </producedTypes>
+  <name>ВКМ_ОсновныеНачисления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основные начисления</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <periodicity>Month</periodicity>
+  <chartOfCalculationTypes>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</chartOfCalculationTypes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="70a102c1-acf2-4f6c-b560-ce9679159bd6">
+    <name>Результат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="6760a561-b93a-4716-a876-3b97d5cd9c66">
+    <name>Показатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатель</value>
+    </synonym>
+    <comment>Значение оклада / часовой ставки</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="2a488ef7-e062-4559-9602-785621cf3216">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </dimensions>
+  <dimensions uuid="4ec4dcd1-151a-445a-85d3-4a03a23cbfef">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВКМ_ПодразделенияОрганизации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </dimensions>
+</mdclass:CalculationRegister>
