@@ -39,4 +39,5 @@
   <content>Report.ВКМ_РасчетыССотрудниками</content>
   <content>Report.ВКМ_РасходЗапланированныхОтпусков</content>
   <content>AccumulationRegister.ВКМ_ПланированиеОтпусков</content>
+  <content>Enum.ВКМ_Статусы</content>
 </mdclass:Subsystem>

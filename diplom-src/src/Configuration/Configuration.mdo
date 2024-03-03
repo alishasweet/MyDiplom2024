@@ -586,6 +586,7 @@
   <roles>Role.ВКМ_ФормированиеОтчетаПоАнализуВыставленныхАктов</roles>
   <roles>Role.ВКМ_ФормированиеОтчетаПоЗарплате</roles>
   <roles>Role.ВКМ_ФормированиеОтчетаПоОтпускам</roles>
+  <roles>Role.ВКМ_ЧтениеИзменениеДокументовОбслуживанияКлиентов</roles>
   <commonTemplates>CommonTemplate.ДанныеПечатиОбщиеРеквизиты</commonTemplates>
   <commonTemplates>CommonTemplate.ДанныеПечатиРегистрСимволов</commonTemplates>
   <commonTemplates>CommonTemplate.ИнструкцияПоСозданиюФаксимильнойПодписиИПечати</commonTemplates>
@@ -1212,6 +1213,7 @@
   <enums>Enum.ФорматыХраненияМногостраничныхФайлов</enums>
   <enums>Enum.ФорматыХраненияОдностраничныхФайлов</enums>
   <enums>Enum.ЦветностиИзображения</enums>
+  <enums>Enum.ВКМ_Статусы</enums>
   <reports>Report.АнализЖурналаРегистрации</reports>
   <reports>Report.АнализПравДоступа</reports>
   <reports>Report.ЗадолженностьПокупателей</reports>

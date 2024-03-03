@@ -1860,7 +1860,7 @@
     </use>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>Заполнть</name>
+        <name>ЗаполнтьКоманда</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>

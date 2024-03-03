@@ -436,7 +436,6 @@
         <changeRowSet>true</changeRowSet>
         <changeRowOrder>true</changeRowOrder>
         <autoMaxWidth>true</autoMaxWidth>
-        <height>10</height>
         <autoMaxHeight>true</autoMaxHeight>
         <heightControlVariant>InFormRows</heightControlVariant>
         <autoMaxRowsCount>true</autoMaxRowsCount>
